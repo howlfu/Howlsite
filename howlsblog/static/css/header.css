@@ -1,0 +1,56 @@
+<style type="text/css">
+
+.headerpic{
+
+}
+
+.headermargin{
+	margin-left:15vw;
+	margin-right:15vw;
+}
+.ann{
+	float:left;
+	width:10vw;
+	height:10vw; 
+}
+.soclink{
+	float:right;
+	margin-right:1vw;
+	width:3vw;
+	height:3vw; 
+}
+.hr_class{
+	clear:both;
+}
+#header_str h1{
+	color:purple;
+	margin-right:35vw;
+	text-align:center; 
+	font-family: Microsoft JhengHei;
+}
+#menu{
+}
+#menu ul{
+	margin:0px;
+	padding-top:0px;
+	padding-botton:1vw;
+	color:white;
+}
+
+#menu ul li{
+	border-style:double;
+	list-style:none;
+	margin-top:1vw;
+	margin-left:0.5vws;
+	float:left;
+	
+}
+#menu ul li a{
+	font-family: Microsoft JhengHei;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	background-color:pink
+}
+
+</style>

@@ -1,0 +1,71 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\HL\djangogirls\Howlsite\.metadata\.plugins\org.eclipse.core.resources\.projects\Ann\com.python.pydev.analysis\v2_indexcache
+Ann.GUI_Setup_SMP|1490072395937931000|D:\eclipse-cpp-mars-2-win32-x86_64\§¾\Ann\GUI_Setup_SMP.py
+XLSXSetup|1490072119616036000|D:\eclipse-cpp-mars-2-win32-x86_64\§¾\XLSXSetup.py
+Ann.Members|1490072396873183000|D:\eclipse-cpp-mars-2-win32-x86_64\§¾\Ann\Members.py
+Ann.__init__|1461665654904423000|D:\eclipse-cpp-mars-2-win32-x86_64\§¾\Ann\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+3=Ann.Members
+9=DemoGUI.__init__
+6=DemoGUI
+4=OBJofXL
+1=Ann.GUI_Setup_SMP
+15=DemoGUI.clean_values
+2=XLSXSetup
+7=DemoGUI.createWidgets
+8=DemoGUI.createWidgets2
+11=OBJofXL2.__init__
+14=DemoGUI.services1
+10=OBJofXL.__init__
+12=DemoGUI.clean_flag
+5=OBJofXL2
+13=DemoGUI.getMethod
+-- END DICTIONARY
+-- START TREE 1
+4
+app|2|app!11@app!19@
+dem|1|DemoGUI!9@
+obj|2|OBJofXL!25@OBJofXL2!25@
+roo|2|root!11@root!19@
+-- END TREE
+-- START TREE 2
+35
+__i|3|__init__!4&26@__init__!5&26@__init__!6&10@
+add|2|Add_new_member_data!4&26@Add_new_member_data!5&26@
+che|7|CheckBox1!7&11@Check_EyeLashes_under!8&11@Check_workpage_sheetname!4&26@Check_workpage_sheetname!5&26@CheckEBV!8&11@CheckVar1!6&11@CheckVar1!7&11@
+cle|3|clean_values!6&10@clean_flag!6&10@clean_all!6&10@
+cre|2|createWidgets2!6&10@createWidgets!6&10@
+cus|3|Customer_data!4&27@Customer_data!5&27@Customer_Info!6&11@
+dtl|2|DTL_page_in_use!6&11@DTL_path_in_use!6&11@
+err|2|error_log!6&11@error_log!9&11@
+exi|2|exitMethod!6&10@exit!7&11@
+get|7|get!7&11@get_customer_info!6&10@Get_Member!4&26@Get_Member!5&26@getMethod!6&10@get_prepayment!6&10@get_customer_EB_info!6&10@
+inw|4|inwb!4&27@inwb!10&27@inwb!5&27@inwb!11&27@
+myl|1|mylist1!6&11@
+new|3|New_Member!6&11@New_Member!12&11@New_Member!13&11@
+opm|1|OpMenu_var1!7&11@
+out|2|out!7&11@Output_Infor!6&10@
+pag|1|page_in_use!6&11@
+pat|5|path!4&27@path!10&27@path!5&27@path!11&27@path_in_use!6&11@
+rea|2|Read_Data!4&26@Read_Cell!4&26@
+red|3|ReDo!6&11@ReDo!12&11@ReDo!14&11@
+row|3|row_get!6&11@row_get!12&11@row_get!13&11@
+sav|4|Save_Cell!4&26@save!7&11@saveMethod!6&10@Save_Data!4&26@
+sel|1|sel1!7&11@
+ser|3|services1!6&10@Serch_member!4&26@Serch_member!5&26@
+set|9|Setup_Data_Detail!9&11@Setup_Data_Detail!12&11@Setup_Data_Detail!15&11@Setup_Data_Detail!13&11@Setup_Data!6&11@Setup_Data!9&11@Setup_Data!12&11@Setup_Data!15&11@Setup_Data!13&11@
+she|4|sheet_name!4&27@sheet_name!10&27@sheet_name!5&27@sheet_name!11&27@
+te1|1|te1!7&11@
+te2|1|te2!7&11@
+te3|1|te3!7&11@
+te4|1|te4!7&11@
+te6|1|te6!7&11@
+te7|1|te7!7&11@
+te8|1|te8!7&11@
+tex|20|Text_for_save2!7&11@Text_for_save7!7&11@text4!8&11@Text_info3!8&11@Text_info6!8&11@Text_info1!8&11@Text_for_save8!7&11@text3!8&11@Text_info2!8&11@Text_for_save3!7&11@Text_for_save9!7&11@text6!8&11@text2!8&11@Text_info5!8&11@Text_for_save4!7&11@Text_for_save1!7&11@text5!8&11@Text_for_save5!7&11@text1!8&11@Text_info4!8&11@
+upd|1|Update_Member!4&26@
+wor|4|workseet!4&27@workseet!10&27@workseet!5&27@workseet!11&27@
+-- END TREE

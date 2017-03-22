@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>蕎藝美睫</title>
+		<meta name="蕎藝美睫" content="HTML, CSS">
+		<!-- 5s <meta http-equiv="refresh" content="5"> -->
+		<link href="css/header.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/contain.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="stylesheet" href="{% static 'css/header.css' %}">
+		<link rel="stylesheet" href="{% static 'css/contain.css' %}">
+	</head>
+	<body style ="background-color:pink;">
+	<div class="headerpic">
+		<a href="./">
+		<img class="ann headermargin" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/16996317_656146437903145_4567442138267645994_n.jpg?oh=8650867ddfcbfb5583d4f446dbb696f2&oe=592B403E">
+		</a>			
+	</div>
+	<div id="header_str">
+		<h1>蕎藝美睫<br>專業睫毛嫁接、教學</h1>
+	</div>	
+	<div class="headermargin">
+		<a href="https://www.facebook.com/search/top/?q=%E8%95%8E%E8%97%9D%E7%BE%8E%E7%9D%AB%EF%BC%88%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%EF%BC%89", target="_blank">
+		<img src="{% static 'pic/fb.jpg' %}" class="soclink">
+		</a>
+		<a href="https://www.instagram.com/explore/locations/986404424/", target="_blank">
+		<img src="{% static 'pic/ig.jpg' %}" class="soclink">
+		</a>
+	</div>
+		<!-- 分隔 -->
+	<hr class="hr_class headermargin">
+			<div id="menu" class="headermargin" style="background-color:LightCoral;height:40px;">
+				<ul>
+					<li><a href="./about">關於</a></li>
+					<li><a href="./env">環境</a></li>
+					<li><a href="./works">作品</a></li>
+					<li><a href="./map">位置</a></li>
+				</ul>
+			</div>
+			<div class="contain1" >
+<pre class="conttext">
+<b>店長: 傅珮華
+美睫師: 小蓁
+				
+嫁接睫毛（韓式3D/6D/下睫/卸睫）
+植睫教學
+蕎藝美睫師皆持有專業證照
+				
+本店採取預約制
+				
+1號美睫師：Ann
+電話：0963-803-882
+Line: joye-eye
+				
+2號美睫師 : Minna
+電話：0956-600-412
+Line: jenjen412
+</b>
+</pre>	
+				<div class="contbg", style="background-image:url(./pic/cover.jpg);">			
+				</div>
+			</div>
+		<!-- 至底 -->			
+			<div id="footer" class="headermargin" style="background-color:purple; color:black;clear:both; text-align:center;position:relative;">
+				Copyright since 2017 © howlfu@gmail.com
+			</div>			
+
+	</body>
+</html>

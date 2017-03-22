@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OPBOOK15/OP15-dist&apos; to &apos;OP1501&apos;" description="Rename resource &apos;OP15-dist&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="OP15-dist" name="OP1501" stamp="1487313591837" updateReferences="true"/>
+</session>

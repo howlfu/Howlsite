@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OPBOOK12/OP1205/__init__.py&apos; to &apos;namespace_test.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="OP1205/__init__.py" name="namespace_test.py" stamp="1486462778457" updateReferences="true"/>
+</session>

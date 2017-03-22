@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OPBOOK14/OP14-find&apos; to &apos;OPB14-maketrans&apos;" description="Rename resource &apos;OP14-find&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="OP14-find" name="OPB14-maketrans" stamp="1487132427346" updateReferences="true"/>
+</session>

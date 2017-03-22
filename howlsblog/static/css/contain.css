@@ -1,0 +1,94 @@
+<style type="text/css">
+.cons{
+}
+.contain1{
+	margin-left:20vw;
+	margin-right:20vw;
+	margin-top:1vw
+}
+
+.contbg{
+	background-repeat:repeat-y; 
+	background-position:center;
+	background-attachment:fixed;
+	height:50vw;
+	opacity:0.2;
+	}
+
+.conttext{
+	font-family: Microsoft JhengHei;
+	font-size:18px;
+	float:right;
+	text-align:center;
+}
+.continfo
+{
+	margin-top:0px;
+	margin-right:26w;
+	padding-top:1vw; 
+	padding-left:1vw; 
+	font-family: Microsoft JhengHei;
+	font-size:16px;
+}
+.picture_left{
+	float:left;
+	margin-top:1vw;
+	margin-bottom:1vw;
+	margin-right:1vw;
+	width:25vw;
+	height:40vw;
+}
+
+.picture_right
+{
+	margin-top:1vw;
+	margin-bottom:1vw;
+	float:right;
+	width:18vw;
+	height:18vw;
+}
+.table_right
+{
+	float:right;
+	border:3px purple solid;
+	background-color:white;
+	font-family: Microsoft JhengHei;
+	font-size:18px;
+	margin-bottom:1vw;
+}
+
+.works_left{
+	margin-top:1vw;
+	margin-bottom:1vw;
+	margin-right:1vw;
+	width:250px;
+	height:250px;
+}
+.googlemap
+{
+	margin-top:1vw;
+	width:25vw;
+	height:30vw;
+}
+.envpic_b{	
+	margin-top:1vw;
+	margin-bottom:1vw;
+	width:55vw;
+	height:30vw;
+}
+.env_mar_left{
+	margin-left:21vw;
+	float:left;
+}
+.envpic_s{
+	margin-top:1vw;
+	margin-right:1vw;
+	margin-bottom:1vw;
+	width:18vw;
+	height:18vw;
+}
+.conthr{
+	clear:both;
+
+}
+</style>

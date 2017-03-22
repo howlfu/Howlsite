@@ -1,0 +1,60 @@
+'''
+Created on 2017年3月17日
+
+@author: HL
+'''
+
+from urllib import error
+import requests,json
+
+class Get_url():
+    
+    token ='EAACEdEose0cBALnORNDvloK9ZCeFLv9qoT1hFyn5AWuzibCKeYMARMsZCJUqz1Q90CVELulZC5U0d2vUPgEInrrAiyj7AT0N7A0N5poY8hBkZALW4h7VBZAzOsZBbZAnGo2zlDZBxta4ZB1Xr2UAusjOqjZBoqWc1BKxD9eDlL5ZAttMr0woaZCDKZBMjMJEalwXZArvwZD'
+    fanpage = {"256084424576017": "蕎藝美睫（板橋府中店）"} 
+    #url of FB api
+    #dm_ur ='https://graph.facebook.com/v2.8/{0}/posts?limit=100&access_token={1}'
+    albums_url ='https://graph.facebook.com/v2.8/{0}/albums?&access_token={1}'
+    album_wanted_url = 'https://graph.facebook.com/v2.8/{0}/albums?access_token={1}&debug=all&fields=photos%7Bimages%7D&format=json&method=get&pretty=0&suppress_http_code=1'
+    #3D 6D album
+    album_wanted = []
+    url_of_photo = {}
+    
+    def __init__(self,  albums):
+        self.album_wanted = albums
+    def from_album_url(self):
+    # coding=utf-8
+        try:
+            for fbid in self.fanpage:
+                #get photo
+                album_IDs={}
+                resp_album = requests.get(self.albums_url.format(fbid,self.token))
+                jsdata_album = json.loads(resp_album.text)
+                #get album IDs that we wanted.
+                for data in jsdata_album['data']:
+                    if data['name'] in self.album_wanted:
+                        album_IDs[data['name']]= data['id']
+                print(album_IDs)
+                #get all photos in album we wanted.
+                #get URL from album
+                resp_photo = requests.get(self.album_wanted_url.format(fbid,self.token))
+                jsdata_photo = json.loads(resp_photo.text) 
+                url_count = 0;
+                for data in jsdata_photo['data']:
+                    if data['id'] in album_IDs.values():
+                        for d in data['photos']['data']:
+                            list_img = d['images']
+                            self.url_of_photo[url_count]= list_img[0]['source']
+                            url_count += 1
+                return self.url_of_photo
+            
+        except error.URLError as e:
+            print(e.reason)  
+
+if __name__ == '__main__':
+    album_wanted = ['美睫','6D']
+    urls=Get_url(album_wanted)
+    print(urls.from_album_url())
+    
+
+    
+    

@@ -1,0 +1,4 @@
+#Mon Feb 20 14:17:09 CST 2017
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=__add__

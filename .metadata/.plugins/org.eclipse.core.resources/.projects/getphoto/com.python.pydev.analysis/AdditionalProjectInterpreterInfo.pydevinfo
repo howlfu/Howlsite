@@ -1,0 +1,27 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\HL\djangogirls\Howlsite\.metadata\.plugins\org.eclipse.core.resources\.projects\getphoto\com.python.pydev.analysis\v2_indexcache
+GetPhotoURL|1490085812527476000|C:\Users\HL\djangogirls\Howlsite\getphoto\GetPhotoURL.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=Get_url
+3=Get_url.__init__
+4=Get_url.from_album_url
+1=GetPhotoURL
+-- END DICTIONARY
+-- START TREE 1
+3
+alb|1|album_wanted!11@
+get|1|Get_url!9@
+url|2|urls!11@urls_url!11@
+-- END TREE
+-- START TREE 2
+6
+__i|1|__init__!2&10@
+alb|6|album_wanted_url!2&11@album_wanted_url!3&11@albums_url!2&11@albums_url!3&11@album_wanted!2&11@album_wanted!3&11@
+fbi|2|fbid!2&11@fbid!3&11@
+fro|1|from_album_url!2&10@
+tok|2|token!2&11@token!3&11@
+url|5|url_of_album!2&11@url_of_album!3&11@url_of_album!4&11@url_of_photo!2&11@url_of_photo!3&11@
+-- END TREE
