@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>蕎藝美睫</title>
+		<meta name="蕎藝美睫" content="HTML, CSS">
+		<meta author="Howl Fu" content="HTML, CSS">
+		<link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link href="{% static 'css/contain.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="{% static 'pic/icon.jpg' %}" type="image/x-icon" />	
+		<script type="text/javascript">
+ 		 function GotoForm(){
+ 			location.href='/accounts/regist';
+  		}
+		</script>
+	</head>
+	<body style ="background-color:pink;">
+	<div class="headerpic">		
+	</div>
+	<div class="loginheader">
+		<h1>蕎藝美睫-板橋府中店<br>專業睫毛嫁接、教學</h1>
+	</div>		
+		<!-- 分隔 -->
+	<hr class="hr_class headermargin">
+	<div style="text-align:center;margin-top:5vw">
+		<a href="/">
+			<img class="loginann" src="{% static 'pic/ann.jpg' %}">	
+		</a>
+		<form class="login" method="post">
+			{% if not first %}
+				<h4 class='login_error'>名稱或密碼錯誤</h4>
+			{%else %}
+				<br />
+			{% endif %}
+            <label for="username">用戶名稱:</label> 
+            <input type="text" name="username" value="" id="username"> <br /><br />
+            <label for="password">用戶密碼:</label>
+            <input type="password" name="password" value="" id="password"> <br /><br />
+            <input class="button" type="submit" value='登入' />
+            <input class="button" type="button" value='註冊' onclick="GotoForm()" />
+			<a href="/accounts/login/forget">忘記密碼?</a>
+			{% if forget %}
+				<h4 class='login_error'>密碼已寄出</h4>
+			{%else %}
+				<br />
+			{% endif %}	
+        </form>
+	</div>
+
+	</body>
+</html>

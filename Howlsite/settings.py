@@ -31,8 +31,8 @@ ALLOWED_HOSTS = ['howlfu.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.admin', #管理
+    'django.contrib.auth', #使用者
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',

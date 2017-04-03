@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>蕎藝美睫</title>
+		<meta name="蕎藝美睫" content="HTML, CSS">
+		<meta author="Howl Fu" content="HTML, CSS">
+		<link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link href="{% static 'css/contain.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="{% static 'pic/icon.jpg' %}" type="image/x-icon" />	
+		<script type="text/javascript">
+ 		 function GotoForm(){
+ 			location.href='/accounts/regist';
+  		}
+		</script>
+	</head>
+	<body style ="background-color:pink;">
+	<div class="headerpic">		
+	</div>
+	<div class="loginheader">
+		<h1>蕎藝美睫-板橋府中店<br>專業睫毛嫁接、教學</h1>
+	</div>		
+		<!-- 分隔 -->
+	<hr class="hr_class headermargin">
+	<div style="text-align:center;margin-top:5vw">
+		<a href="/">
+			<img class="loginann" src="{% static 'pic/ann.jpg' %}">	
+		</a>
+		<form class="login" method="post">
+            <label for="username">用戶名稱:</label> 
+            <input type="text" name="username" value="" id="username"> <br /><br />
+            <input class="button" type="submit" value='送出' />
+            {% if not first %}
+				{% if find %}
+					<h4 class='login_error'>密碼已寄出</h4>
+				{%else %}
+					<h4 class='login_error'>查無此人</h4>
+				{% endif %}	
+			{% endif %}
+        </form>
+	</div>
+
+	</body>
+</html>

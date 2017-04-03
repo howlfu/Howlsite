@@ -1,12 +1,48 @@
 <style type="text/css">
 .cons{
 }
+
+.reg{
+
+	margin-top:1vw;
+	font-family: Microsoft JhengHei;
+}
+.reg a{
+	margin-left:45vw;
+}
+.reg form{
+	margin-left:40vw;
+}
+.login{
+	margin-top:1vw;
+	font-family: Microsoft JhengHei;
+}
+.login a{
+	margin-left:1vw;
+}
+.login h4{
+	color:red;
+	margin-bottom:1vw;
+}
+.loginann{
+	width:8vw;
+	height:8vw; 
+}
+
 .contain1{
 	margin-left:20vw;
 	margin-right:20vw;
 	margin-top:1vw
 }
-
+.button{
+	border:1px purple solid;
+	background-color:white;
+}
+.button:hover{
+	color:white;
+	border:1px purple solid;
+	background-color:purple;
+}
 .contbg{
 	background-repeat:repeat-y; 
 	background-position:center;
@@ -56,6 +92,12 @@
 	font-size:18px;
 	margin-bottom:1vw;
 }
+.table_midle tr th{
+	border:3px purple solid;
+	background-color:white;
+	font-family: Microsoft JhengHei;
+	font-size:18px;
+}
 
 .works_left{
 	margin-top:1vw;
@@ -91,4 +133,5 @@
 	clear:both;
 
 }
+
 </style>

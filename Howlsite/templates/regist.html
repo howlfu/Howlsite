@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>蕎藝美睫</title>
+		<meta name="蕎藝美睫" content="HTML, CSS">
+		<meta author="Howl Fu" content="HTML, CSS">
+		<link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link href="{% static 'css/contain.css' %}" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="{% static 'pic/icon.jpg' %}" type="image/x-icon" />	
+	</head>
+	<body style ="background-color:pink;">
+	<div class="headerpic">		
+	</div>
+	<div class="loginheader">
+		<h1>蕎藝美睫-板橋府中店<br>專業睫毛嫁接、教學</h1>
+	</div>		
+		<!-- 分隔 -->
+	<hr class="hr_class headermargin">
+	<div class='reg'>
+		<a href="/">
+			<img class="loginann" src="{% static 'pic/ann.jpg' %}">	
+		</a>
+		<form class="login" method="post">
+            {{ form.as_p }}
+            <input class="button" type="submit" value="註冊">
+        </form>
+	</div>
+
+	</body>
+</html>

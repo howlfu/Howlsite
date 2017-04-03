@@ -7,17 +7,32 @@
 		<meta author="Howl Fu" content="HTML, CSS">
 		<link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css" media="screen" />
 		<link href="{% static 'css/contain.css' %}" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="shortcut icon" href="{% static 'pic/icon.png' %}" type="image/x-icon" />	
+		<link rel="shortcut icon" href="{% static 'pic/icon.jpg' %}" type="image/x-icon" />	
 	</head>
 	
 	<body style ="background-color:pink;">
 	<div class="headerpic">
-		<a href="./">
+		<a href="/">
 			<img class="ann headermargin" src="{% static 'pic/ann.jpg' %}">
 		</a>			
 	</div>
+	{% if request.user.is_authenticated %}
+		<div class='login_string'>
+			<h4>Hi {{request.user}}</h4>
+			<ul>
+				<li><a href="/accounts/logout">登出</a></li>
+			</ul>
+		</div>
+	{% else %}
+		<div class='login_string'>
+			<ul>
+				<li><a href="/accounts/login">登入</a></li>
+				<li><a href="/accounts/regist">註冊</a></li>
+			</ul>
+		</div>
+	{% endif %}
 	<div id="header_str">
-		<h1>蕎藝美睫<br>專業睫毛嫁接、教學</h1>
+		<h1>蕎藝美睫-板橋府中店<br>專業睫毛嫁接、教學</h1>
 	</div>	
 	<div class="headermargin">
 		<a href="https://www.facebook.com/search/top/?q=%E8%95%8E%E8%97%9D%E7%BE%8E%E7%9D%AB%EF%BC%88%E6%9D%BF%E6%A9%8B%E5%BA%9C%E4%B8%AD%E5%BA%97%EF%BC%89" target="_blank">
@@ -31,10 +46,10 @@
 	<hr class="headermargin hr_class">
 		<div id="menu" class="headermargin" style="background-color:LightCoral;height:3vw;">
 			<ul>
-				<li><a href="./about">關於</a></li>
-				<li><a href="./env">環境</a></li>
-				<li><a href="./works">作品</a></li>
-				<li><a href="./map">位置</a></li>
+				<li><a href="/about">關於</a></li>
+				<li><a href="/env">環境</a></li>
+				<li><a href="/works">作品</a></li>
+				<li><a href="/map">位置</a></li>
 			</ul>
 		</div>
 	<div class = "contain1">

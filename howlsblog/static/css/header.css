@@ -8,6 +8,21 @@
 	margin-left:15vw;
 	margin-right:15vw;
 }
+.login_string{
+	font-family: Microsoft JhengHei;
+	float:right;
+	margin-right:20vw;
+	
+}
+.login_string a{
+	margin-top:1vw;
+	text-decoration:none;
+}
+.loginheader{
+	color:purple;
+	text-align:center; 
+	font-family: Microsoft JhengHei;
+}
 .ann{
 	float:left;
 	width:10vw;
@@ -22,6 +37,7 @@
 .hr_class{
 	clear:both;
 }
+
 #header_str h1{
 	color:purple;
 	margin-right:35vw;
